@@ -1,0 +1,97 @@
+.login_full-page{
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px 0px;
+}
+.login_page {
+  padding: 10px;
+  height: 590px;
+  width: 400px;
+  left: 1012px;
+  top: 52px;
+  
+}
+@media only screen and (max-width: 576px){
+.login_page {
+  height: 590px;
+  width: 300px;
+}
+}
+.login_logo {
+  height: 119px;
+  width: 119px;
+}
+.login_input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+}
+
+.forgot_password {
+    color: #FF0000;
+    margin-left: 81px;
+    font-size: 14px;
+}
+.login_btn {
+    background-color: #3e489a;
+    border: none;
+    padding: 5px 77px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.login_bg{
+  position: relative;
+  
+}
+.login_main{
+position: absolute;
+top: 10%;
+left: 58%;
+}
+.login_img-man{
+ width: 27rem;
+
+}
+.login_bg1{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_bg2{
+background-color: white;
+width: 50%;
+height: 100%;
+}
+.login-or1{
+  position: relative; 
+}
+
+.login-or::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #cfcdcd;
+    position: absolute;
+    top: 45%;
+    left: 58%;
+}
+.login-or::before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #cfcdcd;
+    position: absolute;
+    top: 45%;
+    right: 58%;
+}
+
+.login_img{
+  width: 40px;
+  height: 40px;
+}
+.sign-up{
+  color: #00AEEF;
+}
